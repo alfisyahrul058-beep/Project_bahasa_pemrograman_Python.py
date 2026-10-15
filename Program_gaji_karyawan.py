@@ -22,7 +22,7 @@ if golongan == 'A' or golongan == 'a' :
         print('Status Pendidikan Tidak ditemukan !')
 elif golongan == 'B' or golongan == 'b' :
     if Pendidikan == 'SMA' or Pendidikan == 'sma' :
-       gaji_pokok_pendidikan_sma_golongan_b= 4000000
+       gaji_pokok_pendidikan_sma_golongan_b = 4000000
        tunjangan_golongan_b_pendidikan_sma =  3000000
        gaji_yang_didapat_karyawan = gaji_pokok_pendidikan_sma_golongan_b + tunjangan_golongan_b_pendidikan_sma
        print('Gaji Pokok : ','Rp', gaji_pokok_pendidikan_sma_golongan_b)
